@@ -1,0 +1,9 @@
+<?php
+  $str = 'Just test';
+  $arr = array(
+    'one'   => 'first',
+    'tow'   => 'onther'
+    'three' =>  $str
+  );
+  echo $arr['three'];
+?>
